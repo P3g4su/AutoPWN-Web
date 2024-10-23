@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-O **WebScanAutomator** é uma ferramenta de automação de pentest desenvolvida para profissionais de cibersegurança. Ela integra uma série de ferramentas de análise de segurança, permitindo a execução eficiente de testes de vulnerabilidades em aplicações web. O objetivo é fornecer uma solução abrangente e organizada para a detecção de fraquezas de segurança.
+O **AutoPWN Web** é uma ferramenta de automação de pentest desenvolvida para profissionais de cibersegurança. Ela integra uma série de ferramentas de análise de segurança, permitindo a execução eficiente de testes de vulnerabilidades em aplicações web. O objetivo é fornecer uma solução abrangente e organizada para a detecção de fraquezas de segurança.
 
 ## Funcionalidades Principais
 
@@ -64,13 +64,15 @@ Permite a execução de scans com o **Nessus**, uma das ferramentas de gerenciam
 Para executar a ferramenta, forneça o alvo (IP ou domínio) como argumento:
 
 ```bash
-bash webscanautomator.sh <IP ou domínio>
+chmod +x APW.sh
+./APW.sh <IP ou domínio>
 ```
 
 ### Exemplo de Execução:
 
 ```bash
-bash webscanautomator.sh example.com
+chmod +x APW.sh
+./APW.sh example.com
 ```
 
 ### Estrutura dos Resultados
